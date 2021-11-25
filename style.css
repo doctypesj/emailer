@@ -1,0 +1,158 @@
+@media screen and (max-width: 640px) {
+}
+@media screen and (min-width: 401px) and (max-width: 400px) {
+}
+@media screen and (max-width: 768px){
+}
+
+*{
+    box-sizing: border-box;
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+}
+.header{
+    background: rgb(243, 228, 91);
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    position:relative;
+    top: 0;
+    width: 640px;
+
+}
+.header a{
+    color:rgb(46, 46, 43);
+    text-decoration: none;
+}
+.wrapper-inner{
+    background-color:#fff;
+    
+}
+.two-column{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 90%;
+    max-width: 1000px;  
+}
+.social{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 90%;
+    max-width: 1000px;
+    position:right;
+    padding: 0 390px;
+     
+    
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    height: 40px;
+}
+
+.image{
+    width: 640px;
+}
+
+.image-container{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-text{
+    position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 640px;
+    margin: 20px;
+
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 640px;
+    padding: 10px;
+
+}
+.button-holder-center{
+   margin: 20px;
+   display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width:40%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #076DEE;
+    color: #ffffff;
+    transition: all 0.3s ease;
+
+}
+
+
+.footer{
+    background-color: #076DEE;
+    width: 640px;
+}
+.tagline{
+    display: inline-flex;
+   
+    align-items: center;
+    text-align: left;
+    width: 90%;
+    max-width: 1000px;  
+     padding: 10px 20px;
+
+}
+.text{
+    padding: 20px;
+}
+.footer-add{
+    background-color:rgb(46, 46, 43);
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+.unsubscribe a{
+    color: rgb(27, 29, 27);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+
+ 
+
+  
+}
